@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 .carrusel{
     height: 300px;
@@ -10,9 +12,33 @@
 }
 .imagen_carrusel {
     height: 300px;
-    margin-left: auto; /* Establece el margen izquierdo automático */
-    margin-right: auto; /* Establece el margen derecho automático */
+    margin-left: 25%; 
+    width: 50%;
+   
 }
 .color_boton{
     color: blue;
 }
+.logo{
+    width: 80px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+.imagen_servicios{
+    width: 200px;
+    
+}
+.parrafo_servicios{
+    display: inline;
+    justify-content: center;
+    margin-left: 10px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    align-items: center;
+}
+@media (max-width: 992px) {
+    .contenedor_nosotros {
+        flex-direction: column !important;
+    }
+}
+
