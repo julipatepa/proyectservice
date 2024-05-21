@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+.carrusel{
+    height: 300px;
+    
+    
+    
+    
+}
+.imagen_carrusel {
+    height: 300px;
+    margin-left: auto; /* Establece el margen izquierdo automático */
+    margin-right: auto; /* Establece el margen derecho automático */
+}
+.color_boton{
+    color: blue;
+}
