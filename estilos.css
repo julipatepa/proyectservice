@@ -39,11 +39,11 @@
   width: 300px;
 
 }
-@media (max-width: 992px) {
+
   .contenedor_nosotros {
     flex-direction: column ;
   }
-}
+
 
 body {
   width: 100%;
@@ -81,4 +81,28 @@ body {
   padding-bottom:0 ;
   margin-bottom: 0;
 }
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-top {
+  animation: slideInFromTop 1s ease-out;
+}
+/* estilos.css */
+
+/* Media query para pantallas de 992px o más */
+@media (min-width: 992px) {
+  .navbar-large {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 
