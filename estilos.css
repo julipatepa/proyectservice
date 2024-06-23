@@ -112,6 +112,21 @@ body {
 .imagen_tar{
   height: 400px;
 }
+p{
+ 
+  font-family:Georgia, 'Times New Roman', Times, serif
+  
+}
+
+@media (min-width: 992px) {
+  .mapa {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin: auto;
+  }
+ }
+
 
 
 
