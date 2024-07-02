@@ -127,13 +127,12 @@ p{
 
 
 
-.slide-in-top p {
-  margin-right: 50px;
+.slide-in-top p, h4, h2{
+  margin-right: 30px;
+  margin-left: 20px;
 }
 
-.slide-in-top h4{
-  margin-left: 50px;
-}
+
 
 .footer a.btn:hover{
   background-color: white;
