@@ -38,6 +38,8 @@
   overflow: hidden;
   align-items: center;
   width: 300px;
+  margin-left:50px;
+  
 
 }
 
@@ -118,17 +120,22 @@ p{
   
 }
 
-@media (min-width: 992px) {
-  .mapa {
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      margin: auto;
-  }
- }
+
+.nav-item.btn:hover {
+  background-color: #f0f0f057; /* Color de fondo más claro al pasar el mouse */
+}
 
 
 
+.slide-in-top p {
+  margin-right: 50px;
+}
 
+.slide-in-top h4{
+  margin-left: 50px;
+}
 
+.footer a.btn:hover{
+  background-color: white;
 
+}
