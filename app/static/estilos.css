@@ -132,7 +132,9 @@ p{
   margin-left: 20px;
 }
 
-
+.slide-in-top a.btn:hover{
+  background-color: white;
+}
 
 .footer a.btn:hover{
   background-color: white;
