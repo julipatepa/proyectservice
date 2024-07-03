@@ -110,6 +110,7 @@ body {
 
 .imagen_tarjeta{
   height: 300px;  
+  
 }
 .imagen_tar{
   height: 400px;
@@ -122,7 +123,7 @@ p{
 
 
 .nav-item.btn:hover {
-  background-color: #f0f0f057; /* Color de fondo más claro al pasar el mouse */
+  background-color: white; 
 }
 
 
