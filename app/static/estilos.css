@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.contenedor_principal {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.imagen_carrusel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.color_boton {
+  color: blue;
+}
+.logo {
+  width: 150px;
+  border-radius: 10px;
+  height: 70px;
+}
+
+.imagen_servicios {
+  width: 300px;
+ 
+}
+.logo1{
+  border-radius: 100px;
+
+}
+.parrafo_servicios {
+  display: inline;
+  justify-content: center;
+  margin-left: 10px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  align-items: center;
+  width: 300px;
+  margin-left:50px;
+  
+
+}
+
+  .contenedor_nosotros {
+    flex-direction: column ;
+  }
+
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+@media (max-width: 992px) and (max-height: 666px) {
+  .navbar-collapse {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+    
+    
+  }
+  .nav-item {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+  
+}
+.contenedor_nosotros{
+  padding-bottom:0 ;
+  margin-bottom: 0;
+}
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-top {
+  animation: slideInFromTop 1s ease-out;
+}
+
+
+
+@media (min-width: 992px) {
+  .navbar-large {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.imagen_tarjeta{
+  height: 300px;  
+  
+}
+.imagen_tar{
+  height: 400px;
+}
+p{
+ 
+  font-family:Georgia, 'Times New Roman', Times, serif
+  
+}
+
+
+.slide-in-top p, h4, h2{
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.slide-in-top a.btn:hover{
+  background-color: white;
+}
+
+.footer a.btn:hover{
+  background-color: white;
+
+}
+a.btn:hover{
+  background-color: rgba(255, 255, 255, 0.688);
+}
