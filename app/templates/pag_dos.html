@@ -11,8 +11,8 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   
 </head>
-<body  >
-  <nav class="navbar bg-dark-subtle  navbar-expand-lg ">
+<body class="text-bg-secondary" >
+  <nav class=" contenedor_principal navbar bg-dark-subtle  navbar-expand-lg ">
     <div class="container-fluid ">
       <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@
       <div class="row collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0  justify-content-between">
           <li class="nav-item">
-            <img class="logo " src="{{ url_for('static', filename='imagenes/logo.png') }}" alt="logo">
+            <img class="logo ms-5 me-5" src="{{ url_for('static', filename='imagenes/logo.png') }}" alt="logo">
 
           </li>
           <li class="nav-item nav-item text-black  active btn border-0">
@@ -45,8 +45,8 @@
       </div>
     </div>
   </nav>  
-  <div class="text-bg-secondary "> 
-    <div class="col-12 w-100 mx-auto mb-3 mt-0 text-bg-dark card " id="tarjeta_camaras" style="width: 18rem;">
+  <div class="container w-100  alert-dark text-bg-secondary "> 
+    <div class="col-12 w-100 mx-auto  mt-0 text-bg-dark card " id="tarjeta_camaras" style="width: 18rem;">
         <img src="{{ url_for('static', filename='imagenes/imagens4.avif') }}" class="card-img-top imagen_tarjeta" alt="imagen de camaras">
         <div class="card-body text-bg-secondary">
             <h5 class="card-title">intalacion de camaras</h5>
@@ -66,10 +66,10 @@
           
         </div>
       </div>
-      <div class="col-12 w-100 mx-auto mb-3 mt-3 text-bg-dark card  " id="tarjeta_pc" style="width: 18rem;">
+      <div class="col-12 w-100 mx-auto  text-bg-dark card  " id="tarjeta_pc" style="width: 18rem;">
         <img src="{{ url_for('static', filename='imagenes/imagens6.webp') }}" class="card-img-top imagen_tarjeta" alt="imagen de pc">
         <div class="card-body text-bg-secondary">
-          <h5 class="card-title ">armado y reparacion de pc</h5>
+          <h5 class="card-title ">hardware and software</h5>
           <p class="card-text"></p>
         </div>
         <ul class="list-group list-group-flush">
@@ -82,34 +82,34 @@
           <a href="https://wa.me/1538479551" class="card-link  text-decoration-none btn active border-0">contactanos</a>
         </div>
       </div>
-      <div class="col-12 w-100 mx-auto mb-3 mt-3 text-bg-dark card " id="tarjeta_bombas" style="width: 18rem;">
-        <img src="{{ url_for('static', filename='imagenes/imagens5.webp') }}" class="card-img-top imagen_tarjeta" alt="imagen de bombas">
+      <div class="col-12 w-100 mx-auto   text-bg-dark card " id="tarjeta_bombas" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imagenes/redes.avif') }}" class="card-img-top imagen_tarjeta" alt="imagen de bombas">
         <div class="card-body text-bg-secondary">
-          <h5 class="card-title">reparacion y mantenimiento de bombas</h5>
+          <h5 class="card-title">redes</h5>
           <p class="card-text"></p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item text-bg-secondary"><p>En ServiceGlobalFull, nos especializamos en servicios de instalación y mantenimiento de bombas sumergibles, diseñados para cubrir las necesidades específicas de cada cliente. </p></li>
-          <li class="list-group-item text-bg-secondary"><p>En ServiceGlobalFull, entendemos la importancia de contar con un sistema de bombeo eficiente y confiable. Ofrecemos servicios de reparación de bombas sumergibles rápidos y confiables, ya sea en su ubicación o en nuestro laboratorio especializado, para resolver cualquier problema que pueda surgir. 
+          <li class="list-group-item text-bg-secondary"><p>En ServiceGlobalFull, nos especializamos en servicios de redes personalizados, diseñados para satisfacer las necesidades específicas de cada cliente.</p></li>
+          <li class="list-group-item text-bg-secondary"><p>En ServiceGlobalFull, entendemos la importancia de contar con una infraestructura de red eficiente y segura. Ofrecemos servicios de instalación y configuración rápida y confiable, ya sea en su ubicación o en nuestra sede especializada, para resolver cualquier problema que pueda surgir.
 
           </p></li>
-          <li class="list-group-item text-bg-secondary"><p>En ServiceGlobalFull, nos comprometemos a mantener sus bombas en perfecto estado de funcionamiento.</p></li>
+          <li class="list-group-item text-bg-secondary"><p>En ServiceGlobalFull, nos comprometemos a mantener sus redes en perfecto estado de funcionamiento. Ofrecemos servicios de monitoreo continuo que incluyen análisis de rendimiento, optimización de configuraciones y soporte técnico, para garantizar una conectividad estable y segura.</p></li>
         </ul>
         <div class="card-body">
           <a href="https://wa.me/1538479551" class="card-link  text-decoration-none btn active border-0">contactanos</a>
           
         </div>
       </div>
-      <div class="col-12 w-100 mx-auto mb-0 mt-3 text-bg-dark card " id="tajeta_soldaduras" style="width: 18rem;">
-        <img src="{{ url_for('static', filename='imagenes/imagens7.webp') }}" class="card-img-top imagen_tar" alt="imagen de soldaduras">
+      <div class="col-12 w-100 mx-auto mb-0  text-bg-dark card " id="tajeta_soldaduras" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imagenes/shell.jpg') }}" class="card-img-top imagen_tar" alt="imagen de soldaduras">
         <div class="card-body text-bg-secondary">
-          <h5 class="card-title">soldaduras y herreria</h5>
+          <h5 class="card-title">shell scripting</h5>
           <p class="card-text"></p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item text-bg-secondary">En ServiceGlobalFull, nos especializamos en servicios de soldadura y herrería personalizados, diseñados para satisfacer las necesidades específicas de cada cliente. </li>
-          <li class="list-group-item text-bg-secondary">En ServiceGlobalFull, entendemos la importancia de contar con estructuras metálicas y soldaduras de calidad. Ofrecemos servicios de reparación de soldaduras y herrería rápidos y confiables, ya sea en su ubicación o en nuestro taller especializado, para resolver cualquier problema que pueda surgir.</li>
-          <li class="list-group-item text-bg-secondary">En ServiceGlobalFull, nos comprometemos a mantener sus proyectos de soldadura y herrería en perfecto estado de funcionamiento. Ofrecemos servicios de mantenimiento preventivo que incluyen inspección, limpieza y reforzamiento de soldaduras, así como la protección contra la corrosión, para garantizar una durabilidad y resistencia óptimas de sus estructuras metálicas.</li>
+          <li class="list-group-item text-bg-secondary">En ServiceGlobalFull, nos especializamos en servicios de automatización con shell scripting, diseñados para satisfacer las necesidades específicas de cada cliente. </li>
+          <li class="list-group-item text-bg-secondary">En ServiceGlobalFull, entendemos la importancia de la automatización eficiente en sistemas Unix/Linux. Ofrecemos servicios de desarrollo y optimización de scripts rápidos y confiables, ya sea en su entorno o en nuestra plataforma especializada, para resolver cualquier desafío que pueda surgir.</li>
+          <li class="list-group-item text-bg-secondary">En ServiceGlobalFull, nos comprometemos a mantener sus operaciones de shell scripting en perfecto estado de funcionamiento. Ofrecemos servicios de monitoreo proactivo que incluyen análisis, depuración y mejora de scripts, así como la implementación de medidas de seguridad, para garantizar un rendimiento óptimo y seguro de sus sistemas automatizados.</li>
         </ul>
         <div class="card-body">
           <a href="https://wa.me/1538479551 " class="card-link  text-decoration-none btn active border-0">contactanos</a>
