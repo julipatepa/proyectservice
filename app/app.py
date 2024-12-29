@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Configuración de la conexión MySQL
 app.config['MYSQL_HOST'] = 'julipatepa.mysql.pythonanywhere-services.com'
 app.config['MYSQL_USER'] = 'julipatepa'
-app.config['MYSQL_PASSWORD'] = '42400843Aa'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'julipatepa$julipatepa'
 
 # Inicializar MySQL
